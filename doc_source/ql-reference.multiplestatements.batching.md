@@ -46,7 +46,7 @@ The entire batch must consist of either read statements or write statements; you
    ```
    [    
        {
-           "Statement": "INSERT INTO Music value {'Artist':'?','SongTitle':'?'}",
+           "Statement": "INSERT INTO Music value {'Artist':?,'SongTitle':?}",
            "Parameters": [{"S": "Acme Band"}, {"S": "Best Song"}]
        },
        {
